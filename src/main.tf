@@ -5,7 +5,7 @@ resource "aws_iam_openid_connect_provider" "this" {
 }
 
 resource "aws_iam_role" "this" {
-  name               = var.iam_role_name
+  name               = local.role_name
   assume_role_policy = data.aws_iam_policy_document.this.json
 }
 

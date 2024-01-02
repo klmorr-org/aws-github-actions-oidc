@@ -14,9 +14,9 @@ variable "github_org_name" {
   description = "Name of the Github organization."
 }
 
-variable "iam_role_name" {
+variable "profile" {
   type        = string
-  description = "Name for the iam role."
+  description = "Name of the aws credential profile to use."
 }
 
 variable "provider_url" {
