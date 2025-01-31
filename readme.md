@@ -2,7 +2,7 @@
 
 ## Description
 
-Terraform code to create iam role and an [opendid connect identity provider](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_oidc.html) 
+OpenTofu code to create iam role and an [opendid connect identity provider](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_providers_create_oidc.html) 
 This role enables github actions for repos in your github organization. Add the role arn to your github repository secrets and reference it in your workflow.
 
 Example using a github secret named **GIT_ACTIONS_ROLE**
